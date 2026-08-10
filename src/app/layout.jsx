@@ -1,14 +1,18 @@
-import './globals.css';
-
-export const metadata = {
-    title: 'FrontEnd - Codeverse',
-    description: 'Template do Codeverse',
-};
+import Header from "../components/Header/Header";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
     return (
         <html lang="pt-BR">
-            <body>{children}</body>
+            <body>
+                <Header 
+                    title="Minha Loja" 
+                    subtitle="Os melhores produtos!" 
+                    totalProducts={10} 
+                />
+                
+                <main>{children}</main>
+            </body>
         </html>
     );
 }

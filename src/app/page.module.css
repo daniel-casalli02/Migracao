@@ -1,0 +1,13 @@
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 40px 20px; 
+  background-color: #f9fafb; 
+  min-height: 100vh; 
+}
+
+.gradeDeProdutos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px; 
+}

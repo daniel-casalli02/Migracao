@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+.stats {
+  background-color: #f4f4f5;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #27272a;
+}
